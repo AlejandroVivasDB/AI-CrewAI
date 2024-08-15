@@ -1,0 +1,30 @@
+index_information:
+  description: >
+    The RAG Agent will index all relevant company information and save it in a Markdown file.
+
+    IMPORTANT: avoid SSL errors when accessing the URLs provided.
+  expected_output: >
+    A Markdown file with structured, accessible company information. 
+
+research_opportunities:
+  description: >
+    The Opportunity Research Agent will identify US companies that might need Dualboot Partners' services.
+
+    IMPORTANT: avoid SSL errors when accessing the URLs provided.
+
+  expected_output: >
+    A report listing 10 potential companies, with contact information and software needs.
+
+analyze_industry:
+  description: >
+    The Industry Analyst Agent will identify key trends and opportunities in the software market.
+  expected_output: >
+    A strategic report for the sales team with insights and recommendations.
+
+write_report:
+  description: >
+    The Writer Agent will compile findings from the other agents into a comprehensive and detailed sales opportunities report.
+
+    IMPORTANT: avoid SSL errors when accessing the URLs provided.
+  expected_output: >
+    A detailed report summarizing potential sales opportunities, industry insights, and strategic recommendations.
